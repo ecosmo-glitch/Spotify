@@ -1,0 +1,193 @@
+body {
+    background-color: black;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    -weight: <weight>;
+    font-style: normal;
+    
+}
+nav {
+    background-color: black;
+    width: 1800px;
+    height: 50px;
+}
+.nav {
+    filter: invert(1);
+    width: 40px;
+    /* display: grid;
+    grid-template-columns: repeat(8, 1fr);  */
+
+
+}
+.nav1 {
+    filter: invert(1);
+    float: none;
+    position: absolute;
+    top: 0%;
+    left: 180%;
+    transform: translate(-50%, -50%); 
+
+}
+#header {
+    color: #ffffff;
+}
+.section1 {
+    border-radius: 5%; 
+    display: grid;
+    grid-template-columns: repeat(8, 175px); 
+    background-color: #121212;   
+    border: 4px solid #121212;
+    height: 600px; 
+}
+
+.album1 {
+    width: 150px;
+    margin-right: 20px;
+    border-radius: 5%; 
+
+}
+
+ footer {
+    height: 60px;
+    width: 1800px;
+    background-image: linear-gradient(to right, rgb(255, 4, 234), rgb(85, 85, 246));
+    color: white;
+    margin: 5px;
+ }
+ .names {
+    color: #ffffff;
+    margin-right: 5px;
+    font-size: 16px;
+ }
+
+ .authors {
+    color: #b3b3b3;
+    margin-right: 7px;
+    font-size: 12px;
+
+ }
+aside {
+    color: white;
+    height: 6000;
+    background-color: #121212;
+    float: left;
+    height:680px;
+    width: 400px;
+    border-radius: 8px;
+    margin: 5px;
+}
+.box {
+    background-color: #b93636;
+    width: 5000px;
+    /* position: absolute;   
+    top: 12.8%;
+    left: 50%; */
+
+}
+
+.aside1 {
+    background-color: #2a2a2a;
+    margin: 9px;
+    height: 130px;
+    border-radius: 8px;
+
+}
+.aside2 {
+    background-color: #2a2a2a;
+    margin: 9px;
+    height: 130px;
+    border-radius: 8px;
+
+
+}
+.button {
+    background-color: #ffffff;
+    border-radius: 18px;
+    width: 130px;
+    height: 35px;
+    position: absolute;   
+    top: 24.8%;
+    left: 5.5%;
+    font-size: 15px;
+    color: #2a2a2a;
+}
+.button2 {
+    background-color: #ffffff;
+    border-radius: 18px;
+    width: 130px;
+    height: 35px;
+    position: absolute;   
+    top: 44.8%;
+    left: 5.5%;
+    font-size: 15px;
+    color: #2a2a2a;
+}
+#plus {
+    filter: invert(1);
+    position: absolute;   
+    top: 11.8%;
+    left: 50%;
+}
+#text1 {
+    position: absolute;   
+    top: 15.8%;
+    left: 5%;
+    font-size: 16px;
+}
+#text2 {
+    position: absolute;   
+    top: 19.8%;
+    left: 5.5%;
+    font-size: 14px;
+
+}
+#text3 {
+    position: absolute;   
+    top: 37%;
+    left: 5%;
+    font-size: 16px;
+
+}
+#text4 {
+    position: absolute;   
+    top: 40.9%;
+    left: 5.5%;
+    font-size: 14px;
+
+}
+#meep {
+    color: #121212;
+    height: 1px;
+}
+#meowzers {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    width: 450px;
+    height: 20px;
+    font-size: 12px;
+    position: absolute;   
+    top: 69.8%;
+
+}
+#footer1 {
+    position: absolute;   
+    top: 97%;
+    left: 4%;
+
+}
+#footer2 {
+    position: absolute;   
+    top: 101%;
+    left: 4%;
+}
+#e {
+    position: absolute;   
+    top: 97.5%;
+    left: 200%;
+    font-size: 16px;
+    width: 150px;
+    background-color: white;
+    border-radius: 30%;
+    color: #121212;
+    height: 50px;
+}
